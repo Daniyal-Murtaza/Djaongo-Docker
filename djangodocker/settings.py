@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-0-(satm=zo!=e!@d23ksrv*uffu)opw*-7^2kirul4!idt^@7w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["django-ahsankkhan.cloud.okteto.net"]
+ALLOWED_HOSTS = ["django-ahsankkhan.cloud.okteto.net",
+                'https://django-daniyal-murtaza.cloud.okteto.net/',]
 
 
 # Application definition
@@ -37,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'https://django-daniyal-murtaza.cloud.okteto.net/'
 ]
 
 MIDDLEWARE = [
