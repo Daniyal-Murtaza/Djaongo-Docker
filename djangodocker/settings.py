@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'https://django-daniyal-murtaza.cloud.okteto.net/'
 ]
 
 MIDDLEWARE = [
